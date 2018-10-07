@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VGJavaFX-Bank.jnlp">
+  <information>
+    <title>VGJavaFX-Bank</title>
+    <vendor>mikae</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VGJavaFX-Bank.jar" size="32950" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VGJavaFX-Bank" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vgjavafx.Main"  name="VGJavaFX-Bank" />
+  <update check="always"/>
+</jnlp>

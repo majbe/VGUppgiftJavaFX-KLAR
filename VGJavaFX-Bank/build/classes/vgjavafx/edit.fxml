@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="400.0" style="-fx-background-color: #3D4956;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextField fx:id="name" alignment="CENTER" layoutX="126.0" layoutY="100.0" promptText="namn" />
+        <TextField fx:id="pass" alignment="CENTER" layoutX="126.0" layoutY="180.0" promptText="lösen" />
+        <TextField fx:id="acc" alignment="CENTER" layoutX="126.0" layoutY="140.0" promptText="kontonummer" />
+        <TextField fx:id="saldo" alignment="CENTER" layoutX="126.0" layoutY="220.0" promptText="saldo" />
+        <Button fx:id="sparaKnapp" layoutX="160.0" layoutY="269.0" mnemonicParsing="false" prefWidth="80.0" style="-fx-background-color: #607184;" text="Spara" textFill="WHITE" />
+      <Pane prefHeight="75.0" prefWidth="400.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <Label alignment="CENTER" layoutX="101.0" layoutY="22.0" prefHeight="30.0" prefWidth="200.0" text="Edit Account" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="back" layoutX="160.0" layoutY="311.0" mnemonicParsing="false" prefWidth="80.0" style="-fx-background-color: #607184;" text="Tillbaka" textFill="WHITE" />
+    </children>
+</Pane>
